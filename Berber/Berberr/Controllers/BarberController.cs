@@ -16,6 +16,20 @@ namespace Barber.Controllers
             _context = context;
         }
 
+        [HttpGet("get-barbers")]
+        public IActionResult GetBarbers()
+        {
+            try
+            {
+                var barbers = _context.Barbers.ToList();
+                return Ok(barbers);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Hata: " + ex.Message);
+            }
+        }
+
         [HttpPost("create-barber")]
         public IActionResult CreateBarber([FromBody] Barbers barberData)
         {

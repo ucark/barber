@@ -2,11 +2,11 @@
 
 namespace Barber.BarberDB
 {
-    public class CustomerrManager
+    public class CustomerManager
     {
         private readonly BarberDbContext _context;
 
-        public CustomerrManager(BarberDbContext context)
+        public CustomerManager(BarberDbContext context)
         {
             _context = context;
         }

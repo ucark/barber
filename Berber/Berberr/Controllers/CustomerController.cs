@@ -1,6 +1,9 @@
 ﻿using Barber.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Barber
 {
@@ -12,6 +15,20 @@ namespace Barber
         public CustomerController(BarberDbContext context)
         {
             _context = context;
+        }
+
+        [HttpGet("get-customers")]
+        public IActionResult GetCustomers()
+        {
+            try
+            {
+                var customers = _context.Customers.ToList();
+                return Ok(customers);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Hata: " + ex.Message);
+            }
         }
 
         [HttpPost("create-customer")]
@@ -33,6 +50,7 @@ namespace Barber
                 return StatusCode(500, "Error!: " + ex.Message);
             }
         }
+
         [HttpPut("update-customer/{id}")]
         public IActionResult UpdateCustomer(int id, [FromBody] Customers customerData)
         {

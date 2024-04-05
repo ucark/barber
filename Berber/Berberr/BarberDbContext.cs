@@ -11,6 +11,7 @@ namespace Barber
 
         public DbSet<Barbers> Barbers { get; set; }
         public DbSet<Customers> Customers { get; set; }
+        public DbSet<EmployeeReg> Employees { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
