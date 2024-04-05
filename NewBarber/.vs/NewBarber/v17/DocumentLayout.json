@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|c:\\users\\ucark\\desktop\\yeni berber\\newbarber\\controllers\\barberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|solutionrelative:controllers\\barberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|c:\\users\\ucark\\desktop\\yeni berber\\newbarber\\models\\barbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|solutionrelative:models\\barbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|c:\\users\\ucark\\desktop\\yeni berber\\newbarber\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8295CCB-996C-47BA-B34D-BFA1D8D20511}|NewBarber.csproj|solutionrelative:models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BarbersController.cs",
+              "DocumentMoniker": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Controllers\\BarbersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BarbersController.cs",
+              "ToolTip": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Controllers\\BarbersController.cs",
+              "RelativeToolTip": "Controllers\\BarbersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:51:35.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Barbers.cs",
+              "DocumentMoniker": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Models\\Barbers.cs",
+              "RelativeDocumentMoniker": "Models\\Barbers.cs",
+              "ToolTip": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Models\\Barbers.cs",
+              "RelativeToolTip": "Models\\Barbers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:02:11.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Models\\Customers.cs",
+              "RelativeDocumentMoniker": "Models\\Customers.cs",
+              "ToolTip": "C:\\Users\\ucark\\Desktop\\Yeni Berber\\NewBarber\\Models\\Customers.cs",
+              "RelativeToolTip": "Models\\Customers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:54:14.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
